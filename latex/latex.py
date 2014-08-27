@@ -25,8 +25,8 @@ latexScript = """
             "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," + 
             "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
             "    tex2jax: { " +
-            "        inlineMath: [ [\'$\',\'$\'] ], " +
-            "        displayMath: [ [\'$$\',\'$$\'] ]," +
+            "        inlineMath: [ [\'$\',\'$\'], ['\\\\\\\\(', '\\\\\\\\)'] ], " +
+            "        displayMath: [ [\'$$\',\'$$\'], ['\\\\\\\\[', '\\\\\\\\]'] ]," +
             "        processEscapes: true }, " +
             "    'HTML-CSS': { " +
             "        styles: { '.MathJax .mo, .MathJax .mi': {color: 'black ! important'}} " +
